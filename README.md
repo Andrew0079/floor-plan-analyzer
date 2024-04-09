@@ -26,6 +26,7 @@ python3 main.py /path/to/room.txt
 ### Example 
 
 room.txt (default floor plan)
+```
 +-----------+------------------------------------+
 |           |                                    |
 | (closet)  |                                    |
@@ -76,11 +77,13 @@ room.txt (default floor plan)
                            |                 P   |
                            |                     |
                            +---------------------+
+```
 
-Call python3 main.py or python3 main.py /path/to/file
+
+Call ```python3 main.py``` or ```python3 main.py /path/to/file```
 
 Output:
-
+```
 total:
 W: 14, P: 7, S: 3, C: 1
 balcony:
@@ -99,6 +102,7 @@ sleeping room:
 W: 1, P: 0, S: 1, C: 0
 toilet:
 W: 0, P: 0, S: 0, C: 1
+```
 
 ### SUM
 The Apartment and Chair Analyzer efficiently counts and categorizes chair types from floor plans for Apartment And Chair Delivery Limited, enhancing operational efficiency and customer satisfaction.
